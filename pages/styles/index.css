@@ -104,14 +104,14 @@ hr {
 
 @media screen and (max-width: 768px) {
     #containercategories {
-        display: flex; /* Flexbox düzeni */
-        flex-direction: row; /* Kategoriler yan yana hizalanacak */
-        justify-content: flex-start; /* Elemanlar sol hizalanacak */
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-start; 
         font-size: 10px;
         height: auto;
         width: 89%;
         padding-bottom: 15px;
-        flex-wrap: wrap; /* Alan yetmediğinde elemanlar alt satıra geçer */
+        flex-wrap: wrap; 
     }
 
     .color {
@@ -138,12 +138,12 @@ hr {
     }
 
     #containerbestsells img {
-        width: 100%; /* Taşma olmaması için genişliği %100 yapıyoruz */
-        height: auto; /* Oranı koruyarak yükseklik ayarlanacak */
+        width: 100%; 
+        height: auto; 
     }
 
     #containeropening {
-        justify-content: space-between; /* Sepeti sağa yapıştırmak için */
+        justify-content: space-between;
         align-items: center;
         width: 100%;
         margin-bottom: 5px;
