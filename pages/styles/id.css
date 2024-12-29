@@ -61,7 +61,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     body {
-        font-size: 16px; /* Mobilde font boyutunu küçültür */
+        font-size: 16px; 
     }
 
     #titlecontainer {
@@ -70,37 +70,37 @@ button:hover {
     }
 
     #titlecontainer p{
-        flex-direction: column; /* Yataydan dikey düzenlemeye geçer */
-        align-items: center; /* Ortalar */
+        flex-direction: column; 
+        align-items: center; 
         font-size: 10px;
     }
 
     .titlecart {
-        font-size: 20px; /* Daha küçük ekranlar için font boyutunu küçültür */
-        margin: 10px 0; /* Aralarına boşluk ekler */
+        font-size: 20px; 
+        margin: 10px 0; 
         float: right;
         margin-right: -170px;
     }
 
     #ürünler {
-        margin-top: 15px; /* Daha küçük ekranlarda üst boşluğu daha da azaltır */
+        margin-top: 15px; 
     }
 
     #ürünler {
-        grid-template-columns: 1fr; /* Mobilde her satırda 1 ürün */
+        grid-template-columns: 1fr;
     }
 
     #ürünler img {
         width: 100%;
-        height: auto; /* Mobilde görsellerin boyutunu ekran genişliğine göre ayarlar */
+        height: auto; 
     }
 
     .ürün {
-        padding: 15px; /* Mobilde ürün kutusunun içine biraz daha boşluk ekler */
+        padding: 15px;
     }
 
     button {
-        width: 100%; /* Mobilde butonun genişliğini 100% yapar */
+        width: 100%; 
         font-size: 15px;
         color: orange;
         background-color: white;
