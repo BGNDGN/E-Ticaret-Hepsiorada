@@ -3,7 +3,6 @@
       <div id="titlecontainer">
         <div>
             <a href="http://192.168.1.67:3000/" class="titlewebid">Hepsiorada</a>
-            
         </div>
 
         <nuxt-link to="/sepet"><h3 class="titlecart">Sepetim</h3></nuxt-link>
