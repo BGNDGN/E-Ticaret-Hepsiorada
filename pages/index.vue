@@ -3,7 +3,6 @@
     <div id="containeropening">
       <a href="http://192.168.1.67:3000/" class="titleweb">Hepsiorada</a>
 
-
       <div class="last">
         <input type="text" placeholder="Lütfen bir kategori adı giriniz..." v-model="kategoriAra">
         <button @click="searchCategory">Kategori Ara</button>
