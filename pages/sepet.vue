@@ -53,6 +53,7 @@
         this.cart.splice(index, 1); 
         localStorage.setItem("cart", JSON.stringify(this.cart)); 
         alert("Ürün sepetinizden kaldırıldı!");
+        console.log("Ürün Sepetinize Eklendi !");
       },
   
       changeQuantity(index, action) {
